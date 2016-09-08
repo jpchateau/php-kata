@@ -1,5 +1,6 @@
 <?php
-namespace Kata\Tests;
+
+namespace tests\Kata;
 
 use Kata\Adder;
 

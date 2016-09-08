@@ -1,10 +1,6 @@
 <?php
 namespace Kata;
 
-/**
- * Class Adder
- * @package Kata
- */
 class Adder
 {
     /**
