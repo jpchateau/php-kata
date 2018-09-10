@@ -1,5 +1,5 @@
 <?php
-namespace Kata;
+namespace Kata\Demo;
 
 class Adder
 {

@@ -1,9 +1,10 @@
 <?php
-namespace tests\Kata;
+namespace Kata\Tests\Demo;
 
-use Kata\Adder;
+use Kata\Demo\Adder;
+use PHPUnit\Framework\TestCase;
 
-class AdderTest extends \PHPUnit_Framework_TestCase
+class AdderTest extends TestCase
 {
     /**
      * @test
