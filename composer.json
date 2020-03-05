@@ -1,18 +1,17 @@
 {
-    "name": "kata/php",
+    "name": "php-kata",
     "description": "PHP Kata skeleton",
     "keywords": ["kata", "coding dojo", "TDD", "OOP"],
     "homepage": "https://github.com/jpchateau/php-kata",
     "type": "library",
+    "license": "MIT",
     "require": {
-        "php": "^7",
-        "ext-mbstring": "*"
+        "php": "^7.4"
     },
     "require-dev": {
-        "phpunit/phpunit": "^6",
-        "phpspec/prophecy": "^1"
+        "phpunit/phpunit": "^8.5",
+        "phpspec/prophecy": "^1.10"
     },
-    "license": "MIT",
     "authors": [
         {
             "name": "Jean-Philippe Chateau",

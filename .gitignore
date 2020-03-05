@@ -1,3 +1,4 @@
-vendor/
+/reports/
+/vendor/
+composer.lock
 phpunit.xml
-reports/
