@@ -19,22 +19,20 @@ Practicing a kata
 Let's imagine you want to practice "Bowling game kata". Details about
 this kata can be found [here](http://codingdojo.org/cgi-bin/wiki.pl?KataBowling).
 
-You will need PHP and composer.
+You will need PHP >= 7.2 and [composer](https://getcomposer.org/).
 
 ```bash
-$ composer create-project kata/php bowling-kata dev-master
+$ composer install
 ```
 
-You can also use a container (`docker` is required):
+You can also use a container ([Docker](https://www.docker.com/) is required):
 
 ```bash
 $ docker build -t kata-php .
 $ docker run -it --rm --name kata-php kata-php bash
 ```
 
-
-Then add your classes to 'src/Kata' and your test cases to
-'src/Kata/Tests' and run 'bin/phpunit' to run your tests.
+Then, add your classes to `src/Kata` and your test cases to `src/Kata/Tests` and run your tests.
 
 ```bash
 $ bin/phpunit
@@ -49,6 +47,7 @@ in order to help you. You can delete them.
 Adder is a class that adds two numbers and AdderTest tests that.
 
 Run all the tests with this command:
+
 ```bash
 $ bin/phpunit
 ```
