@@ -29,7 +29,7 @@ You can also use a container ([Docker](https://www.docker.com/) is required):
 
 ```bash
 $ docker build -t kata-php .
-$ docker run -it --rm --name kata-php kata-php bash
+$ docker run -it --rm -v ~/path/to/data/:/usr/src/kata -name kata-php kata-php bash
 ```
 
 Then, add your classes to `src/Kata` and your test cases to `src/Kata/Tests` and run your tests.
