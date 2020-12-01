@@ -6,18 +6,12 @@
     "type": "library",
     "license": "MIT",
     "require": {
-        "php": "^7.2"
+        "php": "^7.3"
     },
     "require-dev": {
-        "phpunit/phpunit": "^8.5",
-        "phpspec/prophecy": "^1.10"
+        "phpunit/phpunit": "^9.4",
+        "phpspec/prophecy": "^1.12"
     },
-    "authors": [
-        {
-            "name": "Jean-Philippe Chateau",
-            "email": "contact@jpchateau.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Kata\\": "src/"
