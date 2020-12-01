@@ -19,7 +19,7 @@ Practicing a kata
 Let's imagine you want to practice "Bowling game kata". Details about
 this kata can be found [here](http://codingdojo.org/cgi-bin/wiki.pl?KataBowling).
 
-You will need PHP >= 7.2 and [composer](https://getcomposer.org/).
+You will need PHP >= 7.3 and [composer](https://getcomposer.org/).
 
 ```bash
 $ composer install
