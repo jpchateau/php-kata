@@ -29,10 +29,10 @@ You can also use a container ([Docker](https://www.docker.com/) is required):
 
 ```bash
 $ docker build -t kata-php .
-$ docker run -it --rm -v ~/path/to/data/:/usr/src/kata -name kata-php kata-php bash
+$ docker run -it --rm -v ${PWD}:/data --name kata-php kata-php bash
 ```
 
-Then, add your classes to `src/Kata` and your test cases to `src/Kata/Tests` and run your tests.
+Then, write your classes in `src/` and your test cases in `tests/` and run your tests.
 
 ```bash
 $ bin/phpunit
@@ -41,13 +41,5 @@ $ bin/phpunit
 TestCase examples
 =================
 
-You will find one class and its TestCase in the project
-in order to help you. You can delete them.
-
+You will find one class and its TestCase in the project in order to help you. You can delete them.  
 Adder is a class that adds two numbers and AdderTest tests that.
-
-Run all the tests with this command:
-
-```bash
-$ bin/phpunit
-```

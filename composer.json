@@ -1,7 +1,7 @@
 {
     "name": "php-kata",
     "description": "PHP Kata skeleton",
-    "keywords": ["kata", "coding dojo", "TDD", "OOP"],
+    "keywords": ["PHP", "kata", "coding dojo", "TDD", "OOP"],
     "homepage": "https://github.com/jpchateau/php-kata",
     "type": "library",
     "license": "MIT",
@@ -14,12 +14,12 @@
     },
     "autoload": {
         "psr-4": {
-            "Kata\\": "src/"
+            "": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Kata\\Tests\\": "tests/"
+            "Tests\\": "tests/"
         }
     },
     "config": {

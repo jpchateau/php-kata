@@ -1,7 +1,7 @@
 <?php
-namespace Kata\Tests\Demo;
+namespace Tests\Demo;
 
-use Kata\Demo\Adder;
+use Demo\Adder;
 use PHPUnit\Framework\TestCase;
 
 class AdderTest extends TestCase
